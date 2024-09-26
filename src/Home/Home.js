@@ -21,6 +21,7 @@ import finopsysSmallLogo from "../assets/finopsysSmall.svg";
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 import ArrowBackIosNewOutlinedIcon from '@mui/icons-material/ArrowBackIosNewOutlined';
 import { apiEndPointUrl } from "../utils/apiService";
+import AQ from "../AQ/AQ";
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -332,7 +333,7 @@ function Home() {
           </div>
         </div>
       </div>
-
+      <AQ></AQ>
       <Modal
         show={showModal}
         onHide={handleClose}
